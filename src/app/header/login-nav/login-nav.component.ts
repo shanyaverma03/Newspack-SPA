@@ -31,6 +31,7 @@ export class LoginNavComponent implements OnInit {
       this.authService.logout();
       this.jsonInteractor.favouriteArticles = [];
       this.jsonInteractor.favouritesSubject.next(this.jsonInteractor.favouriteArticles);
+      alert("User Logged Out");
       this.router.routeToArticleDisplay();
     }
   }
