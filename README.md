@@ -1,3 +1,20 @@
+# To Run the JSON Server
+
+ navigate to myapp/src/server and the run the following command
+ json-server --watch db.json
+
+# Allowed Users (For Login)
+{
+ username: admin
+ password: password
+
+ username: ayush
+ password: ayush
+
+ username: guest
+ password: pass
+}
+
 # Myapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.

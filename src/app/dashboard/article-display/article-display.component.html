@@ -1,0 +1,13 @@
+<div class="container">
+
+    <h1>Trending Business in US</h1>
+
+    <div *ngIf='!errMessage;else noArticles' class="article-display">
+        <app-article [currentArticle]='article' *ngFor='let article of articles'></app-article>
+    </div>
+    
+    <ng-template #noArticles>
+        <label class="error-message">{{errMessage}}</label>
+    </ng-template>
+    
+</div>

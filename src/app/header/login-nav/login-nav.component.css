@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1.5em;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(114, 53, 158);
+    padding-bottom: 1em;
+}

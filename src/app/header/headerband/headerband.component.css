@@ -1,0 +1,20 @@
+.header-comp {
+    background: url("../../../assets/pprback.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(167, 200, 230);
+    height: 17vh;
+    width : 100vw;
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    cursor: pointer;
+    height: 11vh;
+    width: 20vw;
+}
+

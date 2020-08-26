@@ -1,0 +1,37 @@
+
+.photo-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.add-button{
+    margin-top: 0.4em;
+    margin-left: auto;
+}
+
+button{
+    margin-right: 1.2em;
+}
+
+.add-photo-panel{
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+
+.container{
+    background: url("../../../assets/osman-rana-YpyxLl3vkyI-unsplash.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.placeholder {
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}

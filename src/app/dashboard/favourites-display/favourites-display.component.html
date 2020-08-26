@@ -1,0 +1,13 @@
+<div class="container">
+
+<h1>Favourites</h1>
+
+<div *ngIf='!errMessage;else noArticles' class="article-display">
+    <app-article [isFav]='isFav' [currentArticle]='article' *ngFor='let article of favArticles'></app-article>
+</div>
+
+<ng-template #noArticles>
+    <label class="error-message">`{{errMessage}}`</label>
+</ng-template>
+
+</div>

@@ -1,0 +1,19 @@
+.footer-comp {
+    background: url("../../../assets/jake-weirick-a-pykUoxgWo-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(167, 200, 230);
+    height: 17vh;
+    width : 100vw;
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid white;
+}
+
+h3{
+    font-size: 1.3em;
+    color: white;
+}

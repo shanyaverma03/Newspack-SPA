@@ -1,0 +1,10 @@
+.font{
+    color: white;
+}
+
+mat-icon:hover {
+    cursor: pointer;
+    color: rgb(67, 43, 124);
+}
+
+

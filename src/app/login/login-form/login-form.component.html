@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="add-photo-panel">
+    
+        <form [formGroup]="formDetails" (ngSubmit)='loginSubmit()'>
+            <div class="photo-form">
+                <h1>Login</h1>  
+                <mat-form-field>
+                  <input  floatlabel="true" class="username" type='text' matInput [formControl]='username'>
+                  <mat-placeholder class="placeholder">Username</mat-placeholder>  
+                </mat-form-field>
+                <div *ngIf='username.errors && username.touched'>
+                    <small *ngIf='username.errors.required'>Username is Mandatory</small>
+                </div>
+    
+                <mat-form-field >
+                 <input  floatlabel="true" class="password" type='password' matInput [formControl]='password'>  
+                 <mat-placeholder class="placeholder">Password</mat-placeholder>  
+                </mat-form-field>
+                <div *ngIf='password.errors && password.touched'>
+                    <small *ngIf='password.errors.required'>Username is Mandatory</small>
+                </div>
+                
+                <div class="buttons" class="add-button">
+                    <button  mat-raised-button color="primary" type="submit" [disabled]='formDetails.invalid'>Submit</button>
+                    <button  mat-raised-button color="warn" type="text" (click)='backToHomePage()'>Back To HomePage</button>
+                </div>
+            </div>
+        </form>
+      </div>
+    
+    <label class='error-message'>{{ errMessage }}</label>
+</div>

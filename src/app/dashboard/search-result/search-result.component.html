@@ -1,0 +1,12 @@
+<div class="container">
+
+    <h1 *ngIf='searchString'>Search Results For "{{searchString}}"</h1>
+    <div *ngIf='errMessage.length==0;else noArticles' class="article-display">
+        <app-article [currentArticle]='article' *ngFor='let article of resultArray'></app-article>
+    </div>
+    
+    <ng-template #noArticles>
+        <label class="error-message">{{errMessage}}</label>
+    </ng-template>
+    
+</div>

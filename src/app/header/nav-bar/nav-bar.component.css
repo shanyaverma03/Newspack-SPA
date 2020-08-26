@@ -1,0 +1,12 @@
+
+.nav-bar ul {
+    list-style-type: none;
+    margin-left: 10vw;
+}
+
+
+.nav-bar ul li {
+    display: inline;
+    padding: 0.8em;
+    font-size: 1.2em;
+}

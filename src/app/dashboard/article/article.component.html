@@ -1,0 +1,18 @@
+<mat-card class="article-card">
+    <mat-card-header>
+      <mat-card-title><h3>{{currentArticle.title}}</h3></mat-card-title>
+      <mat-card-subtitle><h3>{{currentArticle.author | uppercase}}</h3></mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="currentArticle.urlToImage" alt="US Business Article">
+    <mat-card-content>
+      <p>
+        {{currentArticle.content}}
+      </p>
+    </mat-card-content>
+    <div class="buttons">
+      <a [href]="currentArticle.url" target="_blank"><button mat-raised-button color="primary">View Full Article</button></a>
+      <a *ngIf='!isFav' (click)='addFavs()'><button mat-raised-button color="warn">Add To Favourites</button></a>
+      <a *ngIf='isFav' (click)='deleteFavs()'><button mat-raised-button color="warn">Delete From Favourites</button></a>
+    </div>
+  </mat-card>
+  

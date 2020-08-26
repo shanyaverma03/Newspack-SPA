@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Merriweather:ital,wght@1,700&family=Roboto&display=swap');
+
+.error-message{
+    color: cadetblue;
+    font-size: 2.8em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+h1{
+    color: cadetblue;
+    margin: 0;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-top: 1em;
+}
+
+.article-display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.container{
+    background: url("../../../assets/osman-rana-YpyxLl3vkyI-unsplash.jpg");
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}

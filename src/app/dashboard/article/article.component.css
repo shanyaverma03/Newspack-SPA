@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Merriweather:ital,wght@1,700&family=Roboto&display=swap');
+
+.article-card{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    min-height: 30vh;
+    padding: 1em;
+    border: 2px solid grey;
+    border-radius: 1em;
+    align-items: center;
+    margin: 2em;
+    margin-left: 7vw;
+    background: none;
+    color: white;
+}
+
+img {
+    height: 40vh;
+    width: 30vw;
+    border-radius: 1em;
+    border: 1px solid whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons{
+    display: inline;
+    
+}
+
+button{
+    margin-right: 1em;
+    font-size: 1.2em;
+    box-shadow: 10px 10px 10px darkblue;
+    margin-bottom: 1em;
+    padding: 0.3em 1em ;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+h3{
+    color: rgb(206, 189, 189);
+    font-family: 'Merriweather', serif;
+}
+
+p{
+    font-size: 1.3em;
+    padding: 1em 2em;
+    font-family: 'Roboto', sans-serif;
+}

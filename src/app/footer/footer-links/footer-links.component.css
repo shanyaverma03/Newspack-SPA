@@ -1,0 +1,21 @@
+.social-media-links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-media-links ul a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.social-media-links ul li {
+    display: inline;
+    padding-right: 1.2em;
+    font-size: 1.2em;
+}
+
+.social-media-links ul a:hover li i{
+    text-decoration: none;
+    color: dodgerblue !important;
+    font-size: 1.5em;
+}
